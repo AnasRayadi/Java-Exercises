@@ -38,6 +38,14 @@ public class CarDealership {
         }
         return count;
     }
+    public Car findCarByManufacturer(String manufacturer) {
+        //Car[] car=getCarsOnStock();
+        for (Car car : carsOnStock) {
+            if (car !=null && car.getManufacturer().equals(manufacturer))
+                return car;
+        }
+        return null;
+    }
 
 }
 
