@@ -46,8 +46,6 @@ public class Main {
                 +firstPerson.getGender().toString().substring(0,1)+firstPerson.getGender().toString().substring(1).toLowerCase());
         */
         //System.out.println("T Shirt Size: "+ThirstSize.M);
-
-
     }
 
 }
