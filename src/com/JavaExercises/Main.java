@@ -1,5 +1,12 @@
 package com.JavaExercises;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /**Class Car and Car Dealership*/
@@ -31,11 +38,16 @@ public class Main {
         //dealership.addCarsToStock(new Car("Ford",65_000, Car.EngineType.PETROL));
         //System.out.println("Number of cars after adding the car is: "+dealership.getNumberOfCarsInStock());
         System.out.println(dealership.findCarByManufacturer("BMW"));*/
-
+        /**Class Person*/
+        /*
         var firstPerson=new Person("Anas","Rayadi", Person.Gender.MALE,"anasriyadi08@gmail.com");
         var secondPerson=new Person("Fatima","Alali", Person.Gender.FEMALE,"fatimaalali@gmail.com");
         System.out.println("First Name: "+firstPerson.getFirstName()+" \nLast Name: "+firstPerson.getLastName()+" \nGender: "
                 +firstPerson.getGender().toString().substring(0,1)+firstPerson.getGender().toString().substring(1).toLowerCase());
+        */
+        //System.out.println("T Shirt Size: "+ThirstSize.M);
+
 
     }
+
 }
